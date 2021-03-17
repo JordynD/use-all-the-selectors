@@ -1,0 +1,71 @@
+body {
+  background-color: #fdf6e3;
+}
+
+header, footer {
+  font-size: 1.5rem;
+}
+
+nav ul {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+main {
+  background-color: #eee8d5;
+}
+
+h2 {
+  color: #93a1a1;
+}
+
+.logo {
+  text-transform: uppercase;
+}
+
+.wrapper {
+  background-color: #eee8d5;
+}
+
+#contents {
+  color: #93a1a1;
+}
+
+#favs {
+  color: #93a1a1;
+}
+
+#facts {
+  color: #93a1a1;
+}
+
+#types {
+  color: #93a1a1;
+}
+
+.wrapper > .dfn {
+background-color: #b58900;
+}
+
+strong + .dfn {
+  color: #fff;
+}
+
+a:not(.no-highlight) {
+  background-color: #719e07;
+}
+
+a[rel="external"] {
+  background-color: #2694d8;
+}
+
+ol li:nth-child(1) {
+  color: #719e47;
+}
+
+ol li:nth-child(3) {
+  color: #2aa198;
+}
