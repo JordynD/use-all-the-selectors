@@ -38,18 +38,9 @@ h2 {
   background-color: #eee8d5;
 }
 
-#contents {
-  color: #93a1a1;
-}
-
-#favs {
-  color: #93a1a1;
-}
-
-#facts {
-  color: #93a1a1;
-}
-
+#contents,
+#favs,
+#facts,
 #types {
   color: #93a1a1;
 }
@@ -58,7 +49,7 @@ h2 {
   background-color: #b58900;
 }
 
-strong + .dfn {
+.dfn p + strong {
   color: #fff;
 }
 
@@ -70,22 +61,22 @@ a[rel="external"] {
   background-color: #2694d8;
 }
 
-ol li:nth-child(1) {
+ol li:first-child {
   color: #719e47;
 }
 
-ol li:nth-last-child(an+b) {
+ol li:last-child {
   color: #2aa198;
 }
 
-#types li:nth-child(odd) {
+.types li:nth-child(odd) {
   background-color: #657ba3;
 }
 
-#types li:nth-child(even) {
+.types li:nth-child(even) {
   background-color: #586e75;
 }
 
-#types li:nth-child(3n) {
+.types li:nth-child(3n) {
   background-color: #d04b16;
 }
